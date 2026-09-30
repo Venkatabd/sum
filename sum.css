@@ -1,0 +1,130 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background-color: rgb(201, 210, 218);
+}
+
+
+.fish-store
+{ 
+    width:50%;
+    margin:20px auto;
+    padding:20px;
+    font-family:Inter,sans-serif}
+
+
+
+.store-header
+{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    justify-content: center;
+    flex-wrap:wrap;
+    gap:12px;
+    margin-bottom:20px
+}
+.store-header h2
+{
+    margin:0;
+    font-size:24px;
+    font-weight:700}
+.dropdown
+{
+padding:10px 16px;
+ border-radius:8px;
+    border:1px solid #d1d5db;
+    background:#fff;
+    font-size:14px;
+    cursor:pointer}
+
+
+
+.fish-grid{
+    display:grid;
+    grid-template-columns:
+    repeat(auto-fill,minmax(240px,1fr));
+    gap:18px
+}
+.card
+{
+background:#fff;border:1px solid #e5e7eb;
+    border-radius:16px;overflow:hidden;
+     margin: 60px;
+    box-shadow:0 4px 12px rgba(0,0,0,0.06);
+    transition:.3s;
+    height: 400px;
+}
+.card:hover{
+    transform:translateY(-5px);
+    box-shadow:0 12px 24px rgba(0,0,0,0.12)
+}
+.card img
+{
+    display: flex;
+    margin: 10px auto;
+    width:200px;
+    height:200px;
+    cursor:zoom-in;
+    transition:3s;
+    
+}
+.card img:hover
+{
+    transform:scale(1.1);
+}
+.info
+{
+     padding:14px;
+   
+}
+.info button, h4 ,p,span
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+} 
+.info h4
+{
+    margin:0 auto;
+    font-size:16px
+}
+
+.rating
+{
+    font-size:13px;
+    color:#f59e0b;
+}
+
+.price
+{
+    font-weight:700;
+    margin:6px 0;
+    color:#111827
+}
+.info button
+{
+    width:40%;
+    background:#0f172a;
+    color:#fff;
+    border:none;
+    padding:10px;
+    border-radius:8px;
+    cursor:pointer;
+    margin-top:28px;
+    margin-left: 150px;
+    
+    
+}
+.info button:hover
+{
+    background:#0438a8
+}
+
+
+
+
+
+
